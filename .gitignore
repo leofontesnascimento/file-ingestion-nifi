@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Lake files
+/nifi/files/curated-zone
+/nifi/files/enrichement-zone
