@@ -26,6 +26,7 @@ services:
       - ./files/curated-zone:/opt/nifi/nifi-current/files/curated-zone
       - ./files/enrichement-zone:/opt/nifi/nifi-current/files/enrichement-zone
       - ./files/landing-zone:/opt/nifi/nifi-current/files/landing-zone
+      - ./hdfs-xmls:/opt/hdfs-xmls
     image: apache/nifi:latest
     ports:
       - 8443:8080
