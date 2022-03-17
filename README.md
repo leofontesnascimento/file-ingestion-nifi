@@ -8,3 +8,10 @@ This project aims to validate a file ingestion aproach within Apache NiFi.
 ```
 http://127.0.0.1:8443/nifi/
 ```
+
+### Usage
+
+- To execute parquet processors on NiFi it's necessary to use this config as like HDFS Resources path:
+```
+/opt/hdfs-xmls/core-site.xml,/opt/hdfs-xmls/hdfs-site.xml
+``` 
