@@ -1,15 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
 <configuration>
-
  <property>
-  <name>hadoop.tmp.dir</name>
-  <value> /home/abimanyu/temp</value>   
- </property>
-
- <property>
-  <name>fs.default.name</name>
+  <!-- <name>fs.default.name</name> -->
   <!-- TODO: This is necessary only you are running whitout HDFS cluster -->
-  <value>file:///</value>
-  <!-- <value>hdfs://localhost:54310</value> -->
+  <!-- <value>file:///</value> -->
+  <name>fs.defaultFS</name>
+  <value>hdfs://namenode:9000</value>
  </property>
 
 </configuration>
