@@ -23,9 +23,7 @@ services:
       - nifi_provenance_repository:/opt/nifi/nifi-current/provenance_repository
       - nifi_state:/opt/nifi/nifi-current/state
       - nifi_logs:/opt/nifi/nifi-current/logs
-      - ./files/curated-zone:/opt/nifi/nifi-current/files/curated-zone
-      - ./files/enrichement-zone:/opt/nifi/nifi-current/files/enrichement-zone
-      - ./files/landing-zone:/opt/nifi/nifi-current/files/landing-zone
+      - ./source-files:/opt/nifi/nifi-current/source-files
       - ./hdfs-xmls:/opt/hdfs-xmls
     image: apache/nifi:latest
     ports:
