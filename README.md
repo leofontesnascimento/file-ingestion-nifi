@@ -1,5 +1,10 @@
 # file-ingestion-nifi
-This project aims to validate a file ingestion aproach within Apache NiFi.
+This POC (proof of concept) project aims to validate a file ingestion aproach within Apache NiFi.
+
+## Very Important
+
+All data used on this project are fake and had been generated through website:
+- https://generatedata.com/
 
 ## Pre Configurations
 
